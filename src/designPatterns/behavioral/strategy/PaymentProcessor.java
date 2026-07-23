@@ -1,4 +1,4 @@
-package designPatterns.behavioral;
+package designPatterns.behavioral.strategy;
 
 public class PaymentProcessor {
     private PaymentStrategy paymentStrategy;
