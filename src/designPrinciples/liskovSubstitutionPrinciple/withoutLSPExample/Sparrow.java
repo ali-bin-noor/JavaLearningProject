@@ -1,4 +1,4 @@
-package designPrinciples.liskovSubstitutionPrinciple.withoutLSP;
+package designPrinciples.liskovSubstitutionPrinciple.withoutLSPExample;
 
 public class Sparrow implements Bird{
     @Override

@@ -1,4 +1,4 @@
-package designPrinciples.liskovSubstitutionPrinciple.withoutLSP;
+package designPrinciples.liskovSubstitutionPrinciple.withoutLSPExample;
 
 public class BirdDemo {
     public static void main(String[] args) {
