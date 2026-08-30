@@ -43,7 +43,7 @@ public class SegregateZerosAndOnes {
                end--;
            }else if(arr[start]==0 && arr[end]==0){
                start++;
-           }else{
+           }else{ // arr[start] == 1 && arr[end] == 1
                end--;
            }
        }
