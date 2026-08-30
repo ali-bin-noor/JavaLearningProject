@@ -14,6 +14,15 @@ public class MaxElementInArray {
         }
         System.out.println("Max element in the array : " + max);
 
+        //shallow copy of array
+        int[] shallow = arr;
+
+        //if you are making changes in shallow copy then it will change in original array
+        //shallow copy means we will have another reference to the array just like objects we have
+        shallow[1] = 10;
+
+
+        //deep copy of aaray
         int[] deep = Arrays.copyOf(arr,arr.length);
         System.out.println(arr);
         System.out.println(deep);
