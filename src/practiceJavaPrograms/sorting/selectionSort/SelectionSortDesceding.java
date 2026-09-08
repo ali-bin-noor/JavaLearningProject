@@ -1,25 +1,21 @@
 package practiceJavaPrograms.sorting.selectionSort;
 
-//Selection sort me hamesha strating is sorting hoti hai
-//min find karke starting se replcae krna hota hai
-public class SelectionSortExample1 {
+public class SelectionSortDesceding {
     public static void main(String[] args) {
         int[] arr = {5, -2, 4, 6, 3, 1, 5, 7, 2, 0};
         print(arr);
 
-        for (int i = 0; i < arr.length - 1; i++) {
-            int min = i;
-            for (int j = i + 1; j < arr.length; j++) {
-                if (arr[j] < arr[min]) {
-                    min = j;
+        for (int i = arr.length - 1; i > 0; i--) {
+            int max = i;
+            for (int j = i - 1; j >= 0; j--) {
+                if (arr[j] > arr[max]) {
+                    max = j;
                 }
             }
-
-            int temp = arr[min];
-            arr[min] = arr[i];
+            int temp = arr[max];
+            arr[max] = arr[i];
             arr[i] = temp;
         }
-
         print(arr);
     }
 
