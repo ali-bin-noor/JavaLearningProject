@@ -1,4 +1,4 @@
-package practiceJavaPrograms.sorting.bubbleSort;
+package practiceJavaPrograms.sortingSearching.bubbleSort;
 
 // By using isSorted or swap variable we can optimize the bubble sort.
 public class BubbleSort {

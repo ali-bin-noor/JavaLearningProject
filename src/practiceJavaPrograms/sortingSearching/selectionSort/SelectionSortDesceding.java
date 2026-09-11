@@ -1,4 +1,4 @@
-package practiceJavaPrograms.sorting.selectionSort;
+package practiceJavaPrograms.sortingSearching.selectionSort;
 
 public class SelectionSortDesceding {
     public static void main(String[] args) {

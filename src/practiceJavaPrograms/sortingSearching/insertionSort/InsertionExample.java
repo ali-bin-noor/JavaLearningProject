@@ -1,4 +1,4 @@
-package practiceJavaPrograms.sorting.insertionSort;
+package practiceJavaPrograms.sortingSearching.insertionSort;
 
 public class InsertionExample {
     public static void main(String[] args) {

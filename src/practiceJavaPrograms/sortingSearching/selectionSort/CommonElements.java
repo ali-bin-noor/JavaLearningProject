@@ -1,4 +1,4 @@
-package practiceJavaPrograms.sorting.selectionSort;
+package practiceJavaPrograms.sortingSearching.selectionSort;
 
 
 import java.util.ArrayList;

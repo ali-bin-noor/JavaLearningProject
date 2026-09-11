@@ -1,4 +1,4 @@
-package practiceJavaPrograms.sorting.selectionSort;
+package practiceJavaPrograms.sortingSearching.selectionSort;
 
 //Selection sort me hamesha strating is sorting hoti hai
 //min find karke starting se replcae krna hota hai

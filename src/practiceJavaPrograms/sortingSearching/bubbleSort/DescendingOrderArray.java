@@ -1,4 +1,4 @@
-package practiceJavaPrograms.sorting.bubbleSort;
+package practiceJavaPrograms.sortingSearching.bubbleSort;
 
 public class DescendingOrderArray {
     public static void main(String[] args) {
